@@ -33,7 +33,7 @@ if bashio::supervisor.ping; then
     bashio::log.blue \
         ' Please, share the above information when looking for help'
     bashio::log.green \
-        ' https://github.com/aph-le/home-assistant-addons'
+        ' https://github.com/UnknownEnergy/home-assistant-addons'
     bashio::log.blue \
         '-----------------------------------------------------------'
     bashio::log.green "Server Name: $(bashio::config 'server_name')"
