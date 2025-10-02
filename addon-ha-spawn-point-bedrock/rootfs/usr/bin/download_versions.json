@@ -457,7 +457,7 @@
     {
     "bedrock_version": "1.21.120.24",
     "server_version": "1.21.120.24",
-    "download": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.120.24.zip"
+    "download": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.120.24.zip"
   },
   {
     "bedrock_version": "LATEST",
