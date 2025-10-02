@@ -15,7 +15,7 @@ function hasp::version() {
         input_version="LATEST"
     else
         # shellcheck disable=SC2002
-        download_link=$(cat /usr/bin/download_versions.json | jq -r -c '.[] | select(.bedrock_version | contains('\"$input_version\"')) | .download ')
+        download_link="https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.120.24.zip"
     fi
     echo "${download_link}"
 }
