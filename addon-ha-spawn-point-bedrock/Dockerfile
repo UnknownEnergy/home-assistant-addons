@@ -40,7 +40,7 @@ LABEL \
     org.opencontainers.image.title="${BUILD_NAME}" \
     org.opencontainers.image.description="${BUILD_DESCRIPTION}" \
     org.opencontainers.image.vendor="Home Assistant Add-ons" \
-    org.opencontainers.image.authors="aph-le (https://github.com/aph-le)" \
+    org.opencontainers.image.authors="UnknownEnergy (https://github.com/UnknownEnergy)" \
     org.opencontainers.image.licenses="Apache" \
     org.opencontainers.image.url="https://github.com/UnknownEnergy" \
     org.opencontainers.image.source="https://github.com/${BUILD_REPOSITORY}" \
