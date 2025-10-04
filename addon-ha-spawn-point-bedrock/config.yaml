@@ -1,7 +1,7 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
-name: HA Spawn Point Bedrock
+name: HA Bedrock
 version: "2025.10.04"
-slug: ha-spawn-point-bedrock
+slug: ha-bedrock
 description: Minecraft Server Addon Bedrock Edition
 url: "https://github.com/UnknownEnergy/home-assistant-addons/tree/main/addon-ha-spawn-point-bedrock"
 arch:
@@ -14,9 +14,9 @@ map:
 tmpfs: true
 options:
   eula: true
-  server_name: Spawn Point Bedrock Server
+  server_name: Bedrock Server
   version: LATEST
-  level_name: Spawn Point Bedrock
+  level_name: Bedrock
   max_players: 10
   gamemode: survival
   difficulty: easy
@@ -51,4 +51,4 @@ schema:
   online_mode: "bool?"
   enable_lan_visibility: "bool?"
   enable_port_proxy: "bool?"
-image: "ghcr.io/aph-le/{arch}-addon-spawn-point-legendary"
+image: "ghcr.io/UnknownEnergy/{arch}-addon-spawn-point-bedrock"
